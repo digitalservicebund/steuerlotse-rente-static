@@ -1,0 +1,151 @@
+/* Global styles. */
+
+/* GENERAL */
+@font-face {
+  font-family: "BundesSansWeb";
+  src: url("/fonts/BundesSans-Web-Regular.woff2"),
+    url("/fonts/BundesSans-Web-Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BundesSansWeb Bold";
+  src: url("/fonts/BundesSans-Web-Bold.woff2"),
+    url("/fonts/BundesSans-Web-Bold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "BundesSansWeb Italic";
+  src: url("/fonts/BundesSans-Web-RegularItalic.woff2"),
+    url("/fonts/BundesSans-Web-RegularItalic.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BundesSansWeb Bold Italic";
+  src: url("/fonts/BundesSans-Web-BoldItalic.woff2"),
+    url("/fonts/BundesSans-Web-BoldItalic.woff");
+  font-weight: 700;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: var(--font-main);
+}
+
+body {
+  background: var(--body-color);
+  font-size: var(--text-medium);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* LINKS */
+a {
+  text-decoration: underline;
+  text-underline-offset: var(--spacing-01);
+  text-decoration-color: var(--link-underline-color);
+  color: var(--link-color);
+
+  background-clip: border-box;
+}
+
+a:hover {
+  text-decoration-color: var(--link-hover-color);
+  color: var(--link-hover-color);
+}
+
+a:active {
+  text-decoration-color: var(--link-active-color);
+  color: var(--link-active-color);
+}
+
+a:visited {
+  text-decoration-color: var(--link-visited-color);
+  color: var(--link-visited-color);
+}
+
+
+/* Main Content */
+.main {
+  margin-left: var(--sidebar-width);
+  margin-right: var(--sidebar-width);
+  min-height: 100vh;
+
+  background: var(--body-color);
+}
+
+@media (max-width: 1024px) {
+  .main {
+    margin-left: 0;
+  }
+}
+
+.main-content {
+  max-width: var(--pages-max-width);
+  padding: 1.5rem var(--spacing-03) var(--spacing-10);
+  flex: 1;
+}
+
+@media (min-width: 769px) {
+  .main-content {
+    padding-left: var(--spacing-06);
+    padding-right: var(--spacing-06);
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-content {
+    padding-left: var(--spacing-12);
+  }
+}
+
+.main-content--full-width {
+  padding-top: 1.5rem;
+}
+
+.main-content--full-width--no-padding {
+  padding-top: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-bold);
+}
+
+h1 {
+  font-size: var(--text-4xl);
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: var(--text-3xl);
+  }
+}
+
+h3 {
+  font-size: var(--text-3xl);
+}
+
+h4 {
+  padding-bottom: var(--spacing-02);
+  padding-top: var(--spacing-02);
+}
+
+
+.section-title {
+  margin-bottom: var(--spacing-05);
+}
