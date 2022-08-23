@@ -148,3 +148,17 @@ h4 {
 .section-title {
   margin-bottom: var(--spacing-05);
 }
+
+
+.form-list {
+  list-style-image: url("/images/list_marker.svg");
+}
+
+.form-list li::before {
+  vertical-align: text-top;
+  height: 1px;
+}
+
+.form-list li {
+  margin-top: var(--spacing-02);
+}
