@@ -1,31 +1,26 @@
-.page-wrapper {
-  padding-left: var(--spacing-10);
-  padding-top: var(--spacing-06);
-}
-
-.top-section-wrapper {
+.section-intro-wrapper {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   padding-right: var(--spacing-06a);
 }
 
-.top-section-content p {
+.section-intro-content p {
   font-size: var(--text-xl);
   line-height: 22.8px;
 }
 
-.top-content-wrapper {
+.section-intro-content-wrapper {
   display: flex;
   flex-direction: row;
 }
 
-.text-wrapper {
+.section-intro-text-wrapper {
   padding-top: var(--spacing-07a);
   width: 60%;
 }
 
-.note {
+.section-intro-note {
   font-size: 12px;
   color: var(--note-color);
   margin: 0;
@@ -53,38 +48,6 @@
 
 .accordion-section {
   width: 70%;
-}
-
-.card-body,
-.card-header {
-  background: var(--body-color);
-}
-
-.card {
-  border: none;
-}
-
-.footer {
-  border-top: 1px solid var(--icon-default-color);
-  min-width: 100%;
-  margin-top: var(--spacing-10);
-  background-color: var(--beige-300);
-  padding: var(--spacing-03);
-  padding-left: var(--spacing-10);
-}
-
-.footer a {
-  padding: var(--spacing-03);
-  padding-left: 0;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: all 0.3s ease;
-}
-
-.footer a:hover {
-  text-decoration-line: underline;
-  text-decoration-color: var(--text-color);
-  text-underline-offset: 0.25em;
 }
 
 .accordion-header {
@@ -142,21 +105,16 @@
 }
 
 @media (max-width: 1023px) {
-  .page-wrapper,
-  .footer {
-    padding-left: var(--spacing-05);
-  }
-
   .accordion-section {
     width: 100%;
   }
 
-  .top-section-wrapper {
+  .section-intro-wrapper {
     flex-direction: column;
     padding-right: var(--spacing-05);
   }
 
-  .top-content-wrapper {
+  .section-intro-content-wrapper {
     flex-direction: column;
     margin-bottom: var(--spacing-05);
   }
@@ -167,7 +125,7 @@
     /* width: 50%; */
   }
 
-  .text-wrapper {
+  .section-intro-text-wrapper {
     width: 100%;
   }
 }
@@ -175,11 +133,6 @@
 @media (max-width: 566px) {
   .hero-image-container {
     display: none;
-  }
-
-  .footer-inner {
-    display: flex;
-    flex-direction: column;
   }
 
   .accordion-body p {
