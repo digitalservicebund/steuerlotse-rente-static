@@ -1,319 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/landingPage.css" />
-    <link rel="stylesheet" href="css/variables.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/assorted.css" />
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/landingPage.css"/>
+    <link rel="stylesheet" href="css/variables.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/assorted.css"/>
     <title>Der Steuerlotse für Rente und Pension</title>
-  </head>
-  <body>
-    <main id="main" class="main">
-      <div
-        id="main_content"
-        class="container-fluid p-0 d-flex flex-column min-vh-100"
-      >
+</head>
+<body>
+<main id="main" class="main">
+    <div
+            id="main_content"
+            class="container-fluid p-0 d-flex flex-column min-vh-100"
+    >
         <div class="main-content main-content--full">
-          <div class="section-intro-wrapper">
-            <div class="section-intro-content">
-              <p>
-                Der <strong>Steuerlotse</strong> <br />
-                für Rente und Pension
-              </p>
+            <div class="section-intro-wrapper">
+                <div class="section-intro-content">
+                    <p>
+                        Der <strong>Steuerlotse</strong> <br/>
+                        für Rente und Pension
+                    </p>
+                </div>
+                <div class="section-intro-content-wrapper">
+                    <div class="section-intro-text-wrapper">
+                        <div class="bottom-inner-content pt-4">
+                            <h1 class="mb-5">Der Steuerlotse wurde eingestellt.</h1>
+                            <h3 class="mb-5">
+                                <a href="https://einfach.elster.de/erklaerung/ui/"
+                                >einfachElster</a
+                                >
+                                <strong
+                                >bietet nun die vereinfachte <br/>
+                                    Steuererklärung für Renterinnen und Rentner.</strong
+                                >
+                            </h3>
+                            <p class="section-intro-note">Im Auftrag vom</p>
+                            <div class="top-image-container">
+                                <img src="images/logo_bmf.svg" alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image-container">
+                        <picture>
+                            <source
+                                    media="(min-width:1024px)"
+                                    srcset="images/hero-image-big.png"
+                            />
+                            <source
+                                    media="(min-width:567px)"
+                                    srcset="images/hero-image-small.png"
+                            />
+                            <img
+                                    src="images/hero-image-big.png"
+                                    alt="Bilder von Rentnerinnen und Rentnern beim Ausfüllen ihrer digitalen Steuererklärung."
+                            />
+                        </picture>
+                    </div>
+                </div>
             </div>
-            <div class="section-intro-content-wrapper">
-              <div class="section-intro-text-wrapper">
-                <div class="bottom-inner-content pt-4">
-                  <h1 class="mb-5">Der Steuerlotse wurde eingestellt.</h1>
-                  <h3 class="mb-5">
-                    <a href="https://einfach.elster.de/erklaerung/ui/"
-                      >einfachElster</a
-                    >
-                    <strong
-                      >bietet nun die vereinfachte <br />
-                      Steuererklärung für Renterinnen und Rentner.</strong
-                    >
-                  </h3>
-                  <p class="section-intro-note">Im Auftrag vom</p>
-                  <div class="top-image-container">
-                    <img src="images/logo_bmf.svg" alt="" />
-                  </div>
+
+            <div id="accordionFlushExample" class="accordion accordion-section mt-5 pb-5">
+                <h3 class="mt-5">Häufig gestellte Fragen</h3>
+                <div class="mt-4 pl-0">
+                    <div class="card mt-2">
+                        <div class="card-header d-sm-flex justify-content-between row collapsed w-100"
+                             id="heading-card-1" role="button" data-toggle="collapse"
+                             data-target="#card-1" aria-expanded="true"
+                             aria-controls="card-1">
+                            <button class="col text-left" type="button" style="text-align: left !important;">
+                                <span class="mb-0">Ich habe bisher den Steuerlotsen benutzt, welche Alternativen habe ich?</span>
+                            </button>
+                            <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
+                            </button>
+                            <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/minus.svg" alt="Minus-Zeichen"/>
+                            </button>
+                        </div>
+                        <div id="card-1" class="collapse" aria-labelledby="heading-card-1"
+                             data-parent="#accordionFlushExample">
+                            <div class="card-body-less-padding accordion-body">
+                                <p>
+                                    Wenn Sie bisher mit dem Steuerlotsen gut zurechtgekommen
+                                    sind, können Sie nun alternativ einfachELSTER nutzen.
+                                    Dieser Dienst bietet ebenfalls eine vereinfachte
+                                    Steuererklärung für Rentnerinnen und Renter und ist ein
+                                    offizielles und kostenloses Angebot der Finanzbehörden.
+                                </p>
+                                <p>
+                                    Wie Sie den Service nutzen können, wird Ihnen auf der
+                                    Website von EinfachElster erklärt:
+                                    <a href="https://einfach.elster.de/erklaerung/ui/"
+                                    >www.einfach.elster.de</a
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-sm-flex justify-content-between row collapsed w-100"
+                             id="heading-card-2" role="button" data-toggle="collapse"
+                             data-target="#card-2" aria-expanded="true"
+                             aria-controls="card-2">
+                            <button class="col text-left" type="button">
+                                <span class="mb-0">Warum wurde der Steuerlotse als Online-Dienst eingestellt?</span>
+                            </button>
+                            <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
+                            </button>
+                            <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/minus.svg" alt="Minus-Zeichen"/>
+                            </button>
+                        </div>
+                        <div id="card-2" class="collapse" aria-labelledby="heading-card-2"
+                             data-parent="#accordionFlushExample">
+                            <div class="card-body-less-padding accordion-body">
+                                <p>
+                                    Der Steuerlotse für Rente und Pension hat vielen
+                                    Renterinnen und Rentnern die Möglichkeit geboten, einfach
+                                    und bequem Ihre Steuererklärung abzugeben. Mit
+                                    einfachELSTER gibt es mittlerweile einen weiteren Dienst,
+                                    der diesen Zweck erfüllt. Aus diesem Grund und weil der
+                                    DigitalService als Bundes GmbH Steuergelder mit Bedacht
+                                    einsetzen, haben wir uns dazu entschieden, unseren Dienst
+                                    nicht weiterzuentwickeln. Zukünftig werden wir an anderen
+                                    Lösungen für Bürgerinnen und Bürgern arbeiten, um unser
+                                    Ziel zu erreichen: digitale Anwendungen des Staates zu
+                                    entwickeln, die besser für alle funktionieren. Weitere
+                                    Hintergründe finden Sie in diesem
+                                    <a
+                                            href="https://digitalservice.bund.de/blog/steuerlotse-fuer-rente-und-pension-wird-eingestellt"
+                                    >Blogpost</a
+                                    >.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-sm-flex justify-content-between row collapsed w-100"
+                             id="heading-card-3" role="button" data-toggle="collapse"
+                             data-target="#card-3" aria-expanded="true"
+                             aria-controls="card-3">
+                            <button class="col text-left" type="button">
+                                <span class="mb-0">Ich habe einen Fehler in meiner Steuererklärung 2021
+                                          entdeckt, die ich mit dem Steuerlotsen gemacht habe. Wie
+                                          kann ich ihn korrigieren?</span>
+                            </button>
+                            <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
+                            </button>
+                            <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/minus.svg" alt="Minus-Zeichen"/>
+                            </button>
+                        </div>
+                        <div id="card-3" class="collapse" aria-labelledby="heading-card-3"
+                             data-parent="#accordionFlushExample">
+                            <div class="card-body-less-padding accordion-body">
+                                <p>
+                                    Eine Korrektur der abgegebenen Steuererklärung ist mit dem
+                                    Steuerlotsen nicht möglich. Wenn es sich um eine kleine
+                                    Korrektur handelt, raten wir Ihnen Ihr Finanzamt direkt
+                                    über die falsche Angabe zu informieren. Das Finanzamt wird
+                                    Ihnen dann mitteilen, was Sie weiter tun müssen. Oft
+                                    reicht schon eine formlose Information aus.
+                                </p>
+                                <p>
+                                    Ansonsten können Sie mit Hilfe des Einspruchs gegen den
+                                    Steuerbescheid nachträgliche Angaben machen. Den Einspruch
+                                    können Sie erheben, sobald Sie Ihren Steuerbescheid
+                                    erhalten haben.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-sm-flex justify-content-between row collapsed w-100"
+                             id="heading-card-4" role="button" data-toggle="collapse"
+                             data-target="#card-4" aria-expanded="true"
+                             aria-controls="card-4">
+                            <button class="col text-left" type="button">
+                                <span class="mb-0">Was passiert mit den Steuererklärungen, die ich schon über
+                                                    den Steuerlotsen abgegeben habe?</span>
+                            </button>
+                            <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
+                            </button>
+                            <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/minus.svg" alt="Minus-Zeichen"/>
+                            </button>
+                        </div>
+                        <div id="card-4" class="collapse" aria-labelledby="heading-card-4"
+                             data-parent="#accordionFlushExample">
+                            <div class="card-body-less-padding accordion-body">
+                                Alle Steuererklärungen, die Sie über den Steuerlotsen
+                                abgegeben haben, wurden dem zuständigen Finanzamt
+                                übermittelt. Sollten Sie Fragen zur Ihrer Steuererklärung,
+                                zu Ihrem Steuerbescheid oder der Bearbeitungszeit haben,
+                                wenden Sie sich bitte direkt an Ihr Finanzamt.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-sm-flex justify-content-between row collapsed w-100"
+                             id="heading-card-5" role="button" data-toggle="collapse"
+                             data-target="#card-5" aria-expanded="true"
+                             aria-controls="card-5">
+                            <button class="col text-left" type="button">
+                                <span class="mb-0">Ich habe meine Steuererklärung 2021 über den Steuerlotsen
+                                                    abgegeben. Wann bekomme ich meinen Steuerbescheid?</span>
+                            </button>
+                            <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
+                            </button>
+                            <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/minus.svg" alt="Minus-Zeichen"/>
+                            </button>
+                        </div>
+                        <div id="card-5" class="collapse" aria-labelledby="heading-card-5"
+                             data-parent="#accordionFlushExample">
+                            <div class="card-body-less-padding accordion-body">
+                                <p>
+                                    Der Steuerbescheid wird von Ihrem zuständigen Finanzamt
+                                    ausgestellt, sobald dieses Ihre Steuererklärung bearbeitet
+                                    hat. Dies passiert in der Regel fünf bis zehn Wochen,
+                                    nachdem Sie Ihre Steuererklärung eingereicht haben. Bei
+                                    größeren und schwierigeren Fällen oder in Zeiten, in denen
+                                    besonders viele Leute ihre Erklärung abgeben, kann es
+                                    jedoch gelegentlich länger dauern.
+                                </p>
+                                <p>
+                                    Falls Sie sich über den Verbleib Ihres Steuerbescheids
+                                    erkundigen wollen, ist Ihr zuständiges Finanzamt der
+                                    richtige Ansprechpartner.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2">
+                        <div class="card-header d-sm-flex justify-content-between row collapsed w-100"
+                             id="heading-card-6" role="button" data-toggle="collapse"
+                             data-target="#card-6" aria-expanded="true"
+                             aria-controls="card-6">
+                            <button class="col text-left" type="button">
+                                <span class="mb-0">Ich habe noch eine Frage, an wen kann ich mich wenden?</span>
+                            </button>
+                            <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
+                            </button>
+                            <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
+                                <img src="./icons/minus.svg" alt="Minus-Zeichen"/>
+                            </button>
+                        </div>
+                        <div id="card-6" class="collapse" aria-labelledby="heading-card-6"
+                             data-parent="#accordionFlushExample">
+                            <div class="card-body-less-padding accordion-body">
+                                Bei Fragen zum Steuerlotsen können Sie sich gerne an
+                                <a href="mailto:kontakt@steuerlotse.de"
+                                >kontakt@steuerlotse.de</a
+                                >
+                                wenden. Bei Fragen zu einfachELSTER finden Sie
+                                <a
+                                        href="https://www.elster.de/eportal/infoseite/einfachelsterinfo"
+                                >auf dieser Seite</a
+                                >
+                                Kontaktmöglichkeiten und mehr Informationen.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="hero-image-container">
-                <picture>
-                  <source
-                    media="(min-width:1024px)"
-                    srcset="images/hero-image-big.png"
-                  />
-                  <source
-                    media="(min-width:567px)"
-                    srcset="images/hero-image-small.png"
-                  />
-                  <img
-                    src="images/hero-image-big.png"
-                    alt="Bilder von Rentnerinnen und Rentnern beim Ausfüllen ihrer digitalen Steuererklärung."
-                  />
-                </picture>
-              </div>
             </div>
-          </div>
-          <div class="accordion-section">
-            <h2 class="accordion-header mb-4">Häufig gestellte Fragen</h2>
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                  >
-                    Ich habe bisher den Steuerlotsen benutzt, welche
-                    Alternativen habe ich?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseOne"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Wenn Sie bisher mit dem Steuerlotsen gut zurechtgekommen
-                      sind, können Sie nun alternativ einfachELSTER nutzen.
-                      Dieser Dienst bietet ebenfalls eine vereinfachte
-                      Steuererklärung für Rentnerinnen und Renter und ist ein
-                      offizielles und kostenloses Angebot der Finanzbehörden.
-                    </p>
-                    <p>
-                      Wie Sie den Service nutzen können, wird Ihnen auf der
-                      Website von EinfachElster erklärt:
-                      <a href="https://einfach.elster.de/erklaerung/ui/"
-                        >www.einfach.elster.de</a
-                      >
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                  >
-                    Warum wurde der Steuerlotse als Online-Dienst eingestellt?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Der Steuerlotse für Rente und Pension hat vielen
-                      Renterinnen und Rentnern die Möglichkeit geboten, einfach
-                      und bequem Ihre Steuererklärung abzugeben. Mit
-                      einfachELSTER gibt es mittlerweile einen weiteren Dienst,
-                      der diesen Zweck erfüllt. Aus diesem Grund und weil der
-                      DigitalService als Bundes GmbH Steuergelder mit Bedacht
-                      einsetzen, haben wir uns dazu entschieden, unseren Dienst
-                      nicht weiterzuentwickeln. Zukünftig werden wir an anderen
-                      Lösungen für Bürgerinnen und Bürgern arbeiten, um unser
-                      Ziel zu erreichen: digitale Anwendungen des Staates zu
-                      entwickeln, die besser für alle funktionieren. Weitere
-                      Hintergründe finden Sie in diesem
-                      <a
-                        href="https://digitalservice.bund.de/blog/steuerlotse-fuer-rente-und-pension-wird-eingestellt"
-                        >Blogpost</a
-                      >.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
-                  >
-                    <span>
-                      Ich habe einen Fehler in meiner Steuererklärung 2021
-                      entdeckt, die ich mit dem Steuerlotsen gemacht habe. Wie
-                      kann ich ihn korrigieren?</span
-                    >
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Eine Korrektur der abgegebenen Steuererklärung ist mit dem
-                      Steuerlotsen nicht möglich. Wenn es sich um eine kleine
-                      Korrektur handelt, raten wir Ihnen Ihr Finanzamt direkt
-                      über die falsche Angabe zu informieren. Das Finanzamt wird
-                      Ihnen dann mitteilen, was Sie weiter tun müssen. Oft
-                      reicht schon eine formlose Information aus.
-                    </p>
-                    <p>
-                      Ansonsten können Sie mit Hilfe des Einspruchs gegen den
-                      Steuerbescheid nachträgliche Angaben machen. Den Einspruch
-                      können Sie erheben, sobald Sie Ihren Steuerbescheid
-                      erhalten haben.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFour">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFour"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseFour"
-                  >
-                    Was passiert mit den Steuererklärungen, die ich schon über
-                    den Steuerlotsen abgegeben habe?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseFour"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingFour"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Alle Steuererklärungen, die Sie über den Steuerlotsen
-                    abgegeben haben, wurden dem zuständigen Finanzamt
-                    übermittelt. Sollten Sie Fragen zur Ihrer Steuererklärung,
-                    zu Ihrem Steuerbescheid oder der Bearbeitungszeit haben,
-                    wenden Sie sich bitte direkt an Ihr Finanzamt.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFive">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFive"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseFive"
-                  >
-                    Ich habe meine Steuererklärung 2021 über den Steuerlotsen
-                    abgegeben. Wann bekomme ich meinen Steuerbescheid?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseFive"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingFive"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    <p>
-                      Der Steuerbescheid wird von Ihrem zuständigen Finanzamt
-                      ausgestellt, sobald dieses Ihre Steuererklärung bearbeitet
-                      hat. Dies passiert in der Regel fünf bis zehn Wochen,
-                      nachdem Sie Ihre Steuererklärung eingereicht haben. Bei
-                      größeren und schwierigeren Fällen oder in Zeiten, in denen
-                      besonders viele Leute ihre Erklärung abgeben, kann es
-                      jedoch gelegentlich länger dauern.
-                    </p>
-                    <p>
-                      Falls Sie sich über den Verbleib Ihres Steuerbescheids
-                      erkundigen wollen, ist Ihr zuständiges Finanzamt der
-                      richtige Ansprechpartner.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingSix">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSix"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseSix"
-                  >
-                    Ich habe noch eine Frage, an wen kann ich mich wenden?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseSix"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingSix"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Bei Fragen zum Steuerlotsen können Sie sich gerne an
-                    <a href="mailto:kontakt@steuerlotse.de"
-                      >kontakt@steuerlotse.de</a
-                    >
-                    wenden. Bei Fragen zu einfachELSTER finden Sie
-                    <a
-                      href="https://www.elster.de/eportal/infoseite/einfachelsterinfo"
-                      >auf dieser Seite</a
-                    >
-                    Kontaktmöglichkeiten und mehr Informationen.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <footer class="pl-0 pr-0 ml-0 mr-0 mt-0">
-          <div class="footer-footer">
-              <div class="container-fluid">
-                  <div class="footer-inner">
-                      <div class="row">
-                          <a href="footer/privacy_statement.html">Datenschutzerklärung</a>
-                          <a href="footer/impressum.html">Impressum</a>
-                          <a href="footer/accessibility.html">Erklärung zur Barrierefreiheit</a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </footer>
-      </div>
-      <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"
-      ></script>
-    </main>
-  </body>
+            <div class="footer-footer">
+                <div class="container-fluid">
+                    <div class="footer-inner">
+                        <div class="row footer-separate">
+                            <a href="footer/privacy_statement.html" class="no-padding-left">Datenschutzerklärung</a>
+                            <a href="footer/impressum.html">Impressum</a>
+                            <a href="footer/accessibility.html">Erklärung zur Barrierefreiheit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</main>
+</body>
 </html>
