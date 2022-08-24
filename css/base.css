@@ -72,7 +72,6 @@ a:visited {
   color: var(--link-visited-color);
 }
 
-
 /* Main Content */
 .main {
   min-height: 100vh;
@@ -113,10 +112,13 @@ a:visited {
   padding-top: 0;
 }
 
+.main-content--full {
+  max-width: 100vw;
+}
+
 .bold {
   font-weight: 700;
 }
-
 
 h1,
 h2,
@@ -142,7 +144,6 @@ h4 {
   padding-bottom: var(--spacing-02);
   padding-top: var(--spacing-02);
 }
-
 
 .section-title {
   margin-bottom: var(--spacing-05);
