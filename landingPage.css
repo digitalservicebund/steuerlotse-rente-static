@@ -22,7 +22,6 @@
 
 .section-intro-note {
   font-size: 12px;
-  color: var(--note-color);
   margin: 0;
 }
 
@@ -47,61 +46,86 @@
 }
 
 .accordion-section {
-  width: 70%;
+  width: 65%;
 }
 
-.accordion-header {
-  font-size: var(--text-3xl);
-  padding: 0.75rem 0;
-  text-align: left;
-  color: var(--text-color);
-  background: inherit;
-  border: 0;
-  background-color: var(--body-color);
-}
 
-.accordion-button,
-.accordion-body,
-.accordion-button:not(.collapsed) {
-  background-color: var(--body-color);
-  color: var(--text-color);
-}
-
-.accordion-button {
-  padding-left: 0;
-  font-weight: bold;
-  font-size: var(--text-medium);
-}
-
-.accordion-button span {
-  width: 90%;
-  line-height: var(--lineheight-l);
-}
 .accordion-body {
   padding-left: 6px;
 }
 
 .accordion-body p {
-  width: 80%;
+  width: 85%;
 }
 
-.accordion-button::after {
-  flex-shrink: 0;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-left: auto;
-  content: "";
-  background-image: url("icons/plus.svg");
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  transition: none;
-  vertical-align: middle;
+
+/* ACCORDION */
+.accordion .card {
+  border: 0;
+  border-bottom: 1px solid var(--link-underline-color);
+  border-radius: 0;
+  background: inherit;
+  padding-bottom: .75rem;
 }
 
-.accordion-button:not(.collapsed)::after {
-  background-image: url("icons/minus.svg");
-  transform: none;
-  vertical-align: middle;
+.accordion .card-header {
+  padding: .75rem 0;
+  text-align: left;
+  color: var(--text-color);
+  background: inherit;
+  border: 0;
+}
+
+.accordion .card-header button {
+  border: 0;
+  background: inherit;
+}
+
+.accordion .card-header button:focus,
+.accordion .card-header button:active {
+  outline:none;
+  box-shadow: none;
+  border: 0;
+}
+
+.accordion .card-header button span {
+  font-size: var(--text-medium);
+  font-family: var(--font-bold);
+
+  display: inline;
+}
+
+.accordion .card-header:focus-within button:focus-visible span {
+  color: var(--text-color);
+  background: var(--focus-color);
+  border-bottom: 4px solid var(--focus-border-color);
+}
+
+.accordion .card-header button:hover,
+.accordion .card-header button:active{
+  color: var(--link-hover-color);
+}
+
+.accordion .card-header:not(.collapsed) .control-show-more {
+  /* We need to still show it to keep focus on the element */
+  height: 1px;
+  width: 1px;
+  background-color: inherit;
+  overflow: hidden;
+  position: absolute;
+}
+
+.accordion .card-header.collapsed .control-show-less {
+  /* We need to still show it to keep focus on the element */
+  height: 1px;
+  width: 1px;
+  background-color: inherit;
+  overflow: hidden;
+  position: absolute;
+}
+
+.card-body-less-padding {
+  padding: 1em 1em var(--spacing-01) var(--spacing-01);
 }
 
 @media (max-width: 1023px) {
