@@ -79,11 +79,11 @@
                              data-target="#card-1" aria-expanded="true"
                              aria-controls="card-1">
                             <button class="col text-left" type="button"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Alternativen'}})">
-                                <span class="mb-0">Ich habe bisher den Steuerlotsen benutzt, welche Alternativen habe ich?</span>
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-1-title-text').textContent}})">
+                                <span id="card-1-title-text" class="mb-0">Ich habe bisher den Steuerlotsen benutzt, welche Alternativen habe ich?</span>
                             </button>
                             <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Alternativen'}})">
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-1-title-text').textContent}})">
                                 <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
                             </button>
                             <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
@@ -117,11 +117,11 @@
                              data-target="#card-2" aria-expanded="true"
                              aria-controls="card-2">
                             <button class="col text-left" type="button"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Warum eingestellt'}})">
-                                <span class="mb-0">Warum wurde der Steuerlotse als Online-Dienst eingestellt?</span>
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-2-title-text').textContent}})">
+                                <span id="card-2-title-text" class="mb-0">Warum wurde der Steuerlotse als Online-Dienst eingestellt?</span>
                             </button>
                             <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Warum eingestellt'}})">
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-2-title-text').textContent}})">
                                 <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
                             </button>
                             <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
@@ -159,13 +159,13 @@
                              data-target="#card-3" aria-expanded="true"
                              aria-controls="card-3">
                             <button class="col text-left" type="button"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Fehler korrigieren'}})">
-                                 <span class="mb-0">Ich habe einen Fehler in meiner Steuererklärung für 2021
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-3-title-text').textContent}})">
+                                <span id="card-3-title-text" class="mb-0">Ich habe einen Fehler in meiner Steuererklärung für 2021
                                           entdeckt, die ich mit dem Steuerlotsen gemacht habe. Wie
                                           kann ich ihn korrigieren?</span>
                             </button>
                             <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Fehler korrigieren'}})">
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-3-title-text').textContent}})">
                                 <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
                             </button>
                             <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
@@ -199,12 +199,12 @@
                              data-target="#card-4" aria-expanded="true"
                              aria-controls="card-4">
                             <button class="col text-left" type="button"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Steuererklärung schon abgegeben'}})">
-                                 <span class="mb-0">Was passiert mit den Steuererklärungen, die ich schon über
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-4-title-text').textContent}})">
+                                <span id="card-4-title-text" class="mb-0">Was passiert mit den Steuererklärungen, die ich schon über
                                                     den Steuerlotsen abgegeben habe?</span>
                             </button>
                             <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Steuererklärung schon abgegeben'}})">
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-4-title-text').textContent}})">
                                 <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
                             </button>
                             <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
@@ -229,12 +229,12 @@
                              data-target="#card-5" aria-expanded="true"
                              aria-controls="card-5">
                             <button class="col text-left" type="button"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Wann bekomme ich meinen Steuerbescheid?'}})">
-                                 <span class="mb-0">Ich habe meine Steuererklärung für 2021 über den Steuerlotsen
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-5-title-text').textContent}})">
+                                <span id="card-5-title-text" class="mb-0">Ich habe meine Steuererklärung für 2021 über den Steuerlotsen
                                                     abgegeben. Wann bekomme ich meinen Steuerbescheid?</span>
                             </button>
                             <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Wann bekomme ich meinen Steuerbescheid?'}})">
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-5-title-text').textContent}})">
                                 <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
                             </button>
                             <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
@@ -268,11 +268,11 @@
                              data-target="#card-6" aria-expanded="true"
                              aria-controls="card-6">
                             <button class="col text-left" type="button"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Noch eine Frage'}})">
-                                <span class="mb-0">Ich habe noch eine Frage, an wen kann ich mich wenden?</span>
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-6-title-text').textContent}})">
+                                <span id="card-6-title-text" class="mb-0">Ich habe noch eine Frage, an wen kann ich mich wenden?</span>
                             </button>
                             <button class="col-1 control-show-more" type="button" tabindex="-1" aria-hidden="true"
-                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: 'Noch eine Frage'}})">
+                                    onclick="plausible('Phase-3 FAQs', {props: {Frage: document.getElementById('card-6-title-text').textContent}})">
                                 <img src="./icons/plus.svg" alt="Plus-Zeichen"/>
                             </button>
                             <button class="col-1 control-show-less" type="button" tabindex="-1" aria-hidden="true">
