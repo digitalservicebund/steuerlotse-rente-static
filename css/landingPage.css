@@ -55,6 +55,18 @@
   }
 }
 
+@media (min-width:1024px) and (max-width:1150px) {
+  .accordion-section {
+    padding-right: 2rem !important;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1061px) {
+  .accordion-section {
+    margin-top: -11rem !important;
+  }
+}
+
 .accordion-body {
   padding-left: 6px;
 }
