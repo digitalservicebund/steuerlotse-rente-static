@@ -49,6 +49,11 @@
   width: 65%;
 }
 
+@media (min-width: 1024px) {
+  .accordion-section {
+    margin-top: -15rem !important;
+  }
+}
 
 .accordion-body {
   padding-left: 6px;
@@ -135,7 +140,7 @@
 
   .section-intro-wrapper {
     flex-direction: column;
-    padding-right: var(--spacing-05);
+    padding-right: 0;
   }
 
   .section-intro-content-wrapper {
