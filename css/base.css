@@ -151,7 +151,7 @@ h4 {
 
 
 .form-list {
-  list-style-image: url("/images/list_marker.svg");
+  list-style-image: url("../images/list_marker.svg");
 }
 
 .form-list li::before {
