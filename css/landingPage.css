@@ -41,8 +41,9 @@
 }
 
 .hero-image-container img {
-  width: 100%;
+  width: auto;
   max-height: 700px;
+  height: auto;
 }
 
 .accordion-section {
@@ -52,6 +53,12 @@
 @media (min-width: 1024px) {
   .accordion-section {
     margin-top: -15rem !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hero-image-container img {
+    width: 100%;
   }
 }
 
